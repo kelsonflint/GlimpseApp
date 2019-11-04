@@ -1,0 +1,38 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Hero (1.4.0)
+  - MobilePlayer (1.2.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Hero
+  - MobilePlayer
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Hero
+    - MobilePlayer
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  MobilePlayer: 069b13482499f14c25b6ce53f63a91e17975b073
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: ebb4303e4e9cdc3352c8311623b2d4252117d5c6
+
+COCOAPODS: 1.5.3
